@@ -1,5 +1,35 @@
-<header>Mobile Game</header>
-<body>Download Moblie APK:</body><br>
-<a href="/mobile/downloads/test.txt" download>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile Game Download</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>Mobile Game</header>
+
+  <p>Download Mobile APK:</p>
+
+  <!-- Shown only for Android/other platforms -->
+  <a id="download-link" href="/mobile/downloads/test.txt" download class="download-btn">
     Download Latest Version
-</a>
+  </a>
+
+  <!-- Shown for Apple devices -->
+  <p id="apple-message">The app is unavailable on your platform</p>
+
+<script>
+  const ua = navigator.userAgent || navigator.vendor || window.opera;
+  const isAndroid = /Android/i.test(ua);
+
+  if (isAndroid) {
+    document.getElementById("download-link").style.display = "block";
+  } else {
+    // Hide for non-Android devices
+    document.getElementById("download-link").style.display = "none";
+    document.getElementById("apple-message").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
