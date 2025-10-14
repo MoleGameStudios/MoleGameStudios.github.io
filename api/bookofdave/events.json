@@ -1,0 +1,16 @@
+{
+    "events": {
+        "xmas": {
+            "min_date": "12-20",
+            "max_date": "12-31"
+        },
+        "halloween": {
+            "min_date": "10-20",
+            "max_date": "11-03"
+        },
+        "aprilfools": {
+            "min_date": "04-01",
+            "max_date": "04-01"
+        }
+    }
+}
