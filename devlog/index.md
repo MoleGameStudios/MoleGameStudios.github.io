@@ -1,12 +1,11 @@
 ---
 layout: home
-title: "Mole Game Studios Devlog"
+title: "Devlog"
 ---
 
-# Welcome to the Devlog
+## Welcome to the Devlog
 
-This is the development blog for Mole Game Studios.  
-Here you'll find updates on *Book of Dave* and other projects.
+This is where you will find updates on my work on **Book of Dave** and other related projects.
 
 ## Latest posts
 
