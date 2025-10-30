@@ -1,0 +1,10 @@
+title: Mole Game Studios Devlog
+description: Indie game devlog – working on Book of Dave
+baseurl: "/devlog"
+url: "https://molegamestudios.com"
+theme: minima
+plugins:
+  - jekyll-feed
+
+author:
+  name: Leo
